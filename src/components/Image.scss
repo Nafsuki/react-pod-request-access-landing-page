@@ -1,0 +1,14 @@
+@import '../config';
+
+.Image {
+  z-index: -1;
+  width: 88.8rem;
+  height: 64rem;
+  position: absolute;
+  right: 0;
+  top: 13rem;
+  background: {
+    image: url($bg-image);
+    repeat: no-repeat;
+  }
+}

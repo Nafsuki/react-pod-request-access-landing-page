@@ -1,0 +1,16 @@
+@import '../config';
+.SnsIcons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 4rem; //calculate
+  .sns-icon {
+    margin-right: 4rem;
+    transition: border-color 0.2s ease-in;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.2rem solid transparent;
+    &:hover {
+      border-color: $main-color;
+    }
+  }
+}
